@@ -1,0 +1,129 @@
+section{
+
+
+    display: flex;
+   flex-direction: row;
+
+  height: 80vh;
+
+  
+}
+
+
+
+.auth {
+    min-height: 100%;
+    display: flex;
+ 
+  
+
+}
+    .img {
+      
+  width: 70vh;
+  height: 50vh;
+  margin-top: 5%;
+  padding-left: 10%;
+  
+
+
+    }
+
+        .h2 {
+        color: var(--color-danger);
+        text-align: center;
+    margin-left: 10%;
+padding-left: 85%;
+padding-top: 10%;
+        } 
+        .hh2{
+          color: var(--color-danger);
+          text-align: right;
+          padding: 10%;
+          
+          margin-right: -50%;
+
+        }  
+        .rimg{
+            padding-left: 25%;
+            padding-top: 6rem;
+        }      
+.hover:hover{
+    cursor: pointer;
+    border: 1px solid black;
+  
+}
+.block{
+    background-color: rgb(189, 127, 115);
+}
+    form {
+      width: 35rem;
+      padding: 1rem;
+      animation: slide-up 0.5s ease;
+    margin-left: 60%;
+margin-top: -4%;
+border: 1px solid transparent;
+border-radius: 5px;
+box-shadow: var(--box-shadow);
+overflow: hidden;
+}
+
+      
+      .form {
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+          display: block;
+          font-size: 1.6rem;
+          font-weight: 300;
+          padding: 1rem;
+          margin: 1rem auto;
+          width: 100%;
+          border: 1px solid #777;
+          border-radius: 3px;
+          outline: none;
+        }
+        .links {
+          display: flex;
+          justify-content: space-between;
+          margin: 5px 0;
+        }
+  
+        p {
+          text-align: center;
+          margin: 1rem;
+        }
+      }
+      .register {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+      }
+    
+
+    @keyframes slide-up {
+      0% {
+        transform: translateY(-5rem);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    @keyframes slide-down {
+      0% {
+        transform: translateY(5rem);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+
+  @media screen and (max-width: 649px) {
+    .img {
+      display: none;
+    }
+    form{
+        margin-right: 30%;
+    }
+}
